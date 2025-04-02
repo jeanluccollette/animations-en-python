@@ -101,3 +101,10 @@ pencha.anim()
 
 ## Cas particulier du pendule sur un chariot mobile
 Pour la classe **PenCha** dans le fichier **objets.py**, on remarquera que d’autres méthodes d’instance ont été ajoutées à celles déjà décrites. Elles introduisent une commande qui est une force horizontale s’appliquant sur le chariot, permettant le maintien du pendule dans sa position d’équilibre instable. On peut interrompre l’application de cette commande à un instant donné (paramètre **tcut**) pour observer ensuite l’évolution du système libre. L’élaboration de cette commande n’est donnée qu’à titre d’exemple et ne fonctionne qu’avec les paramètres par défaut.
+
+## Illustration
+
+https://github.com/user-attachments/assets/6c046cf2-3e25-4aea-b88e-1f9a2cad63a2
+
+
+
