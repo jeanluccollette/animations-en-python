@@ -58,9 +58,12 @@ La méthode configure la structure générale du graphique.  L’attribut **self
 
 #####  méthode graph()
 
-La méthode sera lancée autant de fois que nécessaire pour la mise à jour du graphique, via la modification des éléments rassemblés dans la liste self.listegraph. Cette liste doit être retournée par la méthode.
+La méthode sera lancée autant de fois que nécessaire pour la mise à jour du graphique, via la modification des éléments rassemblés dans la liste **self.listegraph**. Cette liste doit être retournée par la méthode.
+
 ### La classe MethNumInt
-Cette classe rassemble les méthodes numériques d’intégration pour les équations différentielles (rk2() ou rk4()). L’attribut self.methode_int désignera la méthode choisie dans chaque classe (PenSim, PenDbl, PenCha) qui en hérite. On y trouve notamment la méthode de Runge-Kutta d’ordre 4, qui sera celle choisie par défaut (self.methode_int = getattr(self, meth) avec meth="rk4").
+
+Cette classe rassemble les méthodes numériques d’intégration pour les équations différentielles (**rk2()** ou **rk4()**). L’attribut **self.methode_int** désignera la méthode choisie dans chaque classe (**PenSim**, **PenDbl**, **PenCha**) qui en hérite. On y trouve notamment la méthode de Runge-Kutta d’ordre 4, qui sera celle choisie par défaut (**self.methode_int = getattr(self, meth)** avec **meth="rk4"**).
+
 ### La classe AnimObj
 Cette classe gère la mise en œuvre de l’animation. La méthode animate() est appelée à chaque itération, le paramètre n désignant le numéro de l’itération.
 Cette méthode animate() est lancée via une instance de la classe FuncAnimation et met ainsi à jour le graphique, le paramètre n étant incrémenté d’une unité à chaque mise à jour. Pour remédier au fait que l’intervalle de temps self.interval (voir 2.2.2) ne correspond pas au temps qui s’est réellement écoulé entre deux mises à jour consécutives du graphique, on va mesurer ce temps réellement écoulé (fonction time()) pour faire avancer la simulation numérique du nombre variable de pas correspondant.
