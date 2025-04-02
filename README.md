@@ -86,14 +86,14 @@ pensim.anim()
 ```
 
 Fichier pendule_double.py :
-```pytho
+```python
 import objets
 pendbl = objets.PenDbl()
 pendbl.anim()
 ```
 
 Fichier pendule_chariot.py :
-```pytho
+```python
 import objets
 pencha = objets.PenCha()
 pencha.anim()
