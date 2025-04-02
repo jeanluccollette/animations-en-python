@@ -2,7 +2,7 @@
  
 ## Introduction
 
-Un environnement de programmation en Python est proposé afin de réaliser facilement des animations sur des systèmes mécaniques.
+Un environnement de programmation en Python est proposé (archive [animabase.zip](animabase.zip)) afin de réaliser facilement des animations sur des systèmes mécaniques.
 
 Les exemples proposés sont les suivants :
 - Pendule simple
