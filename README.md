@@ -40,7 +40,7 @@ Dans l’instance créée, on pourra ainsi utiliser les paramètres propres au s
 
 #### Les méthodes d’instance
 
-##### méthode __init__()
+##### méthode \_\_init\_\_()
 
 On initialise notamment les attributs **self.l** et **self.g** quand l’instance est créée. Les valeurs par défaut de tous les attributs aboutissent à un fonctionnement correct.
 
