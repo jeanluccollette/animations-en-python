@@ -21,10 +21,10 @@ Elles héritent des classes **MethNumInt** (méthodes d’intégration numériqu
 Chaque classe « objet » (**PenSim**, **PenDbl**, **PenCha**) associée à la description d’un système est organisée de la même façon. Pour décrire cette organisation, l’exemple du pendule simple sera utilisé.
 #### Création d’une instance
 Le nom de la classe est par exemple **PenSim** pour le pendule simple. La création d’une instance (un pendule avec ses propres paramètres) se fera ainsi :
-'''
+```python
 import objets
 pensim = objets.PenSim(l,g)
-'''
+```
 Ici, **l** est la longueur du pendule et **g** l’accélération de la pesanteur.
 #### Les attributs
 Dans l’instance créée, on pourra ainsi utiliser les paramètres propres au système (ici, longueur self.l du pendule et accélération de la pesanteur self.g). Les attributs suivants sont ceux associés à l’animation du graphique. 
