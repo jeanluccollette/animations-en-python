@@ -19,20 +19,24 @@ Elles héritent des classes **MethNumInt** (méthodes d’intégration numériqu
 ### Les classes PenSim, PenDbl et PenCha
 
 Chaque classe « objet » (**PenSim**, **PenDbl**, **PenCha**) associée à la description d’un système est organisée de la même façon. Pour décrire cette organisation, l’exemple du pendule simple sera utilisé.
+
 #### Création d’une instance
+
 Le nom de la classe est par exemple **PenSim** pour le pendule simple. La création d’une instance (un pendule avec ses propres paramètres) se fera ainsi :
 ```python
 import objets
 pensim = objets.PenSim(l,g)
 ```
 Ici, **l** est la longueur du pendule et **g** l’accélération de la pesanteur.
+
 #### Les attributs
-Dans l’instance créée, on pourra ainsi utiliser les paramètres propres au système (ici, longueur self.l du pendule et accélération de la pesanteur self.g). Les attributs suivants sont ceux associés à l’animation du graphique. 
-	self.T : durée exacte de l’animation en s
-	self.Tdeb : délai approximatif en s après lequel l’animation commence (doit être différent de 0)
-	self.interval : intervalle de temps approximatif en ms entre deux mises à jour du graphique (mais non constant en réalité et plus long)
-	self.dt : pas de calcul constant en s pour la résolution numérique de l’équation différentielle régissant le mouvement.
-	self.y0 : état initial du système
+
+Dans l’instance créée, on pourra ainsi utiliser les paramètres propres au système (ici, longueur **self.l** du pendule et accélération de la pesanteur **self.g**). Les attributs suivants sont ceux associés à l’animation du graphique. 
+- **self.T** : durée exacte de l’animation en s
+- **self.Tdeb** : délai approximatif en s après lequel l’animation commence (doit être différent de 0)
+- **self.interval** : intervalle de temps approximatif en ms entre deux mises à jour du graphique (mais non constant en réalité et plus long)
+- **self.dt** : pas de calcul constant en s pour la résolution numérique de l’équation différentielle régissant le mouvement.
+- **self.y0** : état initial du système
 #### Les méthodes d’instance
 ##### méthode __init__()
 On initialise notamment les attributs self.l et self.g quand l’instance est créée. Les valeurs par défaut de tous les attributs aboutissent à un fonctionnement correct.
