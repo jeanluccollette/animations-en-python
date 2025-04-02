@@ -37,23 +37,27 @@ Dans l’instance créée, on pourra ainsi utiliser les paramètres propres au s
 - **self.interval** : intervalle de temps approximatif en ms entre deux mises à jour du graphique (mais non constant en réalité et plus long)
 - **self.dt** : pas de calcul constant en s pour la résolution numérique de l’équation différentielle régissant le mouvement.
 - **self.y0** : état initial du système
-- 
+
 #### Les méthodes d’instance
 
 ##### méthode __init__()
 
 On initialise notamment les attributs **self.l** et **self.g** quand l’instance est créée. Les valeurs par défaut de tous les attributs aboutissent à un fonctionnement correct.
 
-#####  méthode F()
+#####  méthode **F()**
 
 L’équation dynamique du système est mise sous la forme :
 
 $$\dfrac{dY}{dt}=F(t,Y)$$
 
-La méthode F prend en paramètre l’instant t et le vecteur d’état Y (pour le pendule simple, l’angle avec la verticale et la vitesse angulaire) et retourne Yp (ce que vaut la dérivée du vecteur d’état à l’instant considéré). Cette méthode sera utilisée pour la résolution numérique de l’équation différentielle régissant le mouvement.
+La méthode **F** prend en paramètre l’instant **t** et le vecteur d’état **Y** (pour le pendule simple, l’angle avec la verticale et la vitesse angulaire) et retourne **Yp** (ce que vaut la dérivée du vecteur d’état à l’instant considéré). Cette méthode sera utilisée pour la résolution numérique de l’équation différentielle régissant le mouvement.
+
 #####  méthode init_graph()
-La méthode configure la structure générale du graphique.  L’attribut self.listegraph rassemble dans une liste les éléments particuliers qui seront modifiés durant l’animation.
+
+La méthode configure la structure générale du graphique.  L’attribut **self.listegraph** rassemble dans une liste les éléments particuliers qui seront modifiés durant l’animation.
+
 #####  méthode graph()
+
 La méthode sera lancée autant de fois que nécessaire pour la mise à jour du graphique, via la modification des éléments rassemblés dans la liste self.listegraph. Cette liste doit être retournée par la méthode.
 ### La classe MethNumInt
 Cette classe rassemble les méthodes numériques d’intégration pour les équations différentielles (rk2() ou rk4()). L’attribut self.methode_int désignera la méthode choisie dans chaque classe (PenSim, PenDbl, PenCha) qui en hérite. On y trouve notamment la méthode de Runge-Kutta d’ordre 4, qui sera celle choisie par défaut (self.methode_int = getattr(self, meth) avec meth="rk4").
