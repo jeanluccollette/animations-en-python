@@ -5,9 +5,9 @@
 Un environnement de programmation en Python est proposé afin de réaliser facilement des animations sur des systèmes mécaniques.
 
 Les exemples proposés sont les suivants :
-	Pendule simple
-	Pendule double
-	Pendule sur chariot avec commande d’asservissement (voir 4 pour les spécificités)
+- Pendule simple
+- Pendule double
+- Pendule sur chariot avec commande d’asservissement (voir 4 pour les spécificités)
  
 ## Représentation d’un système
 
