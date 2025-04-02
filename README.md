@@ -104,9 +104,4 @@ Pour la classe **PenCha** dans le fichier **objets.py**, on remarquera que d’a
 
 ## Illustration
 
-https://github.com/user-attachments/assets/d9adf7c0-2455-43a9-b5b2-40871e465f02
-
-
-
-
-
+https://github.com/user-attachments/assets/3be57380-4d9c-4e44-8916-9406f658c1fd
