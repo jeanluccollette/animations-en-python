@@ -104,7 +104,7 @@ Pour la classe **PenCha** dans le fichier **objets.py**, on remarquera que d’a
 
 ## Illustration
 
-https://github.com/user-attachments/assets/6c046cf2-3e25-4aea-b88e-1f9a2cad63a2
+![](animbase_cpr.mp4)
 
 
 
