@@ -13,8 +13,8 @@ Les exemples proposés sont les suivants :
 
 ### Principe
 
-Dans le fichier *objets.py*, on définit trois classes « objet » (PenSim, PenDbl, PenCha) associées chacune à la description d’un système mécanique, comme ceux mentionnés en introduction.
-Elles héritent des classes MethNumInt (méthodes d’intégration numérique d’équation différentielle) et AnimObj (méthodes pour animer le graphique) qui définissent des méthodes communes aux trois classes mentionnées.
+Dans le fichier **objets.py**, on définit trois classes « objet » (**PenSim**, **PenDbl**, **PenCha**) associées chacune à la description d’un système mécanique, comme ceux mentionnés en introduction.
+Elles héritent des classes **MethNumInt** (méthodes d’intégration numérique d’équation différentielle) et **AnimObj** (méthodes pour animer le graphique) qui définissent des méthodes communes aux trois classes mentionnées.
 
 ### Les classes PenSim, PenDbl et PenCha
 
