@@ -77,18 +77,21 @@ La méthode **anim()** lance l’animation complète.
 ## L’animation
 
 Avec les classes ainsi définies, le lancement de l’animation est très simple pour chaque objet. Les fichiers mentionnés ci-dessous sont directement exécutables. On y créée une instance de la classe choisie, puis on lance l’animation associée à cette instance.
+
 Fichier pendule_simple.py :
 ```python
 import objets
 pensim = objets.PenSim()
 pensim.anim()
 ```
+
 Fichier pendule_double.py :
 ```pytho
 import objets
 pendbl = objets.PenDbl()
 pendbl.anim()
 ```
+
 Fichier pendule_chariot.py :
 ```pytho
 import objets
