@@ -58,7 +58,7 @@ La méthode configure la structure générale du graphique, via l’initialisati
 
 #####  méthode graph()
 
-La méthode sera lancée autant de fois que nécessaire pour la mise à jour du graphique, via la modification des éléments rassemblés dans la liste **self.listegraph**. Cette liste doit être retournée par la méthode.
+La méthode prend en paramètre l’instant **t** et le vecteur d’état **Y**, et sera lancée autant de fois que nécessaire pour la mise à jour du graphique, via la modification des éléments rassemblés dans la liste **self.listegraph**.
 
 ### La classe MethNumInt
 
