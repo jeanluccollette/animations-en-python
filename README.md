@@ -54,7 +54,7 @@ La méthode **F()** prend en paramètre l’instant **t** et le vecteur d’éta
 
 #####  méthode init_graph()
 
-La méthode configure la structure générale du graphique.  L’attribut **self.listegraph** rassemble dans une liste les éléments particuliers qui seront modifiés durant l’animation.
+La méthode configure la structure générale du graphique, via l’initialisation de l’attribut **self.fig**. L’attribut **self.listegraph** doit rassembler dans une liste les éléments particuliers qui seront modifiés durant l’animation.
 
 #####  méthode graph()
 
