@@ -106,3 +106,13 @@ Pour la classe **PenCha** dans le fichier **objets.py**, on remarquera que d’a
 ## Illustration
 
 https://github.com/user-attachments/assets/3be57380-4d9c-4e44-8916-9406f658c1fd
+
+## Bonus avec l'effet Djanibekov
+
+Fichier toupie.py :
+```python
+import toupies
+toupie = toupies.Toupie()
+toupie.anim()
+```
+
