@@ -150,6 +150,11 @@ $$
 La résolution numérique de cette équation dynamique peut être validée en calculant le moment cinétique $\vec{\sigma}$ dans le référentiel inertiel, qui doit rester constant en théorie. Le moment cinétique $\vec{\sigma}_s$ défini sur les axes principaux d'inertie a une expression simple et donne accès à $\vec{\sigma}$ via le changement de base réalisé avec la matrice $Q$.
 
 $$\begin{equation}
-\vec{\sigma}=Q\vec{\sigma}_s=Q\left(\begin{matrix}I_1 \Omega_1\\I_2\Omega_2\\I_3\Omega_3\end{matrix}\right)
+\vec{\sigma}=Q\vec{\sigma}_s=Q
+\left(\begin{matrix}
+I_1\Omega_1\\
+I_2\Omega_2\\
+I_3\Omega_3
+\end{matrix}\right)
 \end{equation}$$
 
