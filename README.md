@@ -135,7 +135,7 @@ Par ailleurs, on définit les trois vecteurs orthonormaux orientant les axes pri
 
 L'équation dynamique est donnée ci-dessous. Elle comprend 12 variables, 3 pour les vitesses angulaires et 9 pour la matrice Q qui permettra de représenter le mouvement du solide dans le référentiel inertiel.
 
-\begin{align}
+$$\begin{align}
 \frac{d\Omega_1}{dt}&=\Omega_2\Omega_3\frac{(I_2 - I_3)}{I_1}\\
 \frac{d\Omega_2}{dt}&=\Omega_3\Omega_1\frac{(I_3 - I_1)}{I_2}\\
 \frac{d\Omega_3}{dt}&=\Omega_1\Omega_2\frac{(I_1 - I_2)}{I_3}\\
@@ -145,6 +145,7 @@ L'équation dynamique est donnée ci-dessous. Elle comprend 12 variables, 3 pour
 -\Omega_2&\Omega_1&0
 \end{matrix}\right)\\
 \end{align}
+$$
 
 La résolution numérique de cette équation dynamique peut être validée en calculant le moment cinétique $\vec{\sigma}$ dans le référentiel inertiel, qui doit rester constant en théorie. Le moment cinétique $\vec{\sigma}_s$ défini sur les axes principaux d'inertie a une expression simple et donne accès à $\vec{\sigma}$ via le changement de base réalisé avec la matrice $Q$.
 
