@@ -113,7 +113,7 @@ L'effet se produit pour tout corps rigide en impesanteur — ou chute libre — 
 
 La méthode décrite dans le [document](https://www.f-legrand.fr/scidoc/srcdoc/sciphys/meca/solide/solide-pdf.pdf) rédigé par [Frédéric Legrand](https://www.f-legrand.fr/scidoc/) a été utilisée.
 
-L'archive [toupies.zip](toupies.zip) contient les programmes permettant la simulation numériques, selon les mêmes principes déjà exposés.
+L'archive [toupies.zip](toupies.zip) contient les programmes permettant la simulation numérique, selon les mêmes principes déjà exposés.
 
 Fichier toupie.py :
 ```python
