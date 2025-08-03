@@ -109,6 +109,12 @@ https://github.com/user-attachments/assets/3be57380-4d9c-4e44-8916-9406f658c1fd
 
 ## Bonus avec l'effet Djanibekov
 
+L'effet se produit pour tout corps rigide en impesanteur — ou chute libre — qui présente trois axes principaux avec des moments d'inertie différents, selon la [description](https://fr.wikipedia.org/wiki/Effet_Djanibekov) disponible sur Wikipédia.
+
+La méthode décrite dans le [document](https://www.f-legrand.fr/scidoc/srcdoc/sciphys/meca/solide/solide-pdf.pdf) rédigé par [Frédéric Legrand](https://www.f-legrand.fr/scidoc/) a été utilisée.
+
+L'archive [toupies.zip](toupies.zip) contient les programmes permettant la simulation numériques, selon les mêmes principes déjà exposés.
+
 Fichier toupie.py :
 ```python
 import toupies
