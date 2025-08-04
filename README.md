@@ -156,3 +156,4 @@ I_3\Omega_3
 \end{matrix}\right)
 \end{equation}$$
 
+https://github.com/user-attachments/assets/154433e9-17ea-4a85-8e96-aad097435813
