@@ -157,3 +157,16 @@ I_3\Omega_3
 \end{equation}$$
 
 https://github.com/user-attachments/assets/154433e9-17ea-4a85-8e96-aad097435813
+
+## Bonus avec propagation d'onde sur une ligne
+
+Fichier ligne.py :
+```python
+import lignes
+ligne = lignes.Ligne()
+ligne.anim()
+```
+
+https://github.com/user-attachments/assets/d3984ca9-2e8f-484d-b294-16e84f6c06b2
+
+
