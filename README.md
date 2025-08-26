@@ -115,7 +115,7 @@ La méthode décrite dans le [document](https://www.f-legrand.fr/scidoc/srcdoc/s
 
 L'archive [toupies.zip](toupies.zip) contient les programmes permettant la simulation numérique, selon les mêmes principes déjà exposés.
 
-Fichier toupie.py :
+Fichier toupie.py (archive [toupies.zip](toupies.zip)) :
 ```python
 import toupies
 toupie = toupies.Toupie()
@@ -160,7 +160,7 @@ https://github.com/user-attachments/assets/154433e9-17ea-4a85-8e96-aad097435813
 
 ## Bonus avec propagation d'onde sur une ligne
 
-Fichier ligne.py :
+Fichier ligne.py (archive [lignes.zip](lignes.zip)) :
 ```python
 import lignes
 ligne = lignes.Ligne()
