@@ -173,4 +173,6 @@ https://github.com/user-attachments/assets/d3984ca9-2e8f-484d-b294-16e84f6c06b2
 
 Il est disponible [ici](animations.ipynb)
 
+Version Google Colab [ici](https://colab.research.google.com/drive/11Fik_SILIgIapxXb5VRLcIl5on5pg-V_?usp=drive_link) 
+
 
