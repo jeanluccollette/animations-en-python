@@ -176,7 +176,7 @@ les programmes en **Python**. L'attribut **self.interval** détermine cette fois
 des images dans la vidéo générée (**self.interval** de 40ms donne 25 images par seconde). La résolution numérique s'effectuera
 donc avec un nombre de pas de calcul identique entre deux images consécutives.
 
-Il est disponible [ici](animations.ipynb)
+Le notebook est disponible [ici](animations.ipynb)
 
 Version Google Colab [ici](https://colab.research.google.com/drive/11Fik_SILIgIapxXb5VRLcIl5on5pg-V_?usp=drive_link) 
 
