@@ -171,6 +171,11 @@ https://github.com/user-attachments/assets/d3984ca9-2e8f-484d-b294-16e84f6c06b2
 
 ## Bonus avec le Notebook rassemblant toutes les animations
 
+La méthode **animation()** dans la classe **AnimObj** est différente dans le notebook, par rapport à celle définie dans
+les programmes en **Python**. L'attribut **interval** détermine cette fois de façon exacte la cadence de rafraîchissement
+des images dans la vidéo générée (**interval** de 40ms donne 25 images par seconde). La résolution numérique s'effectuera
+donc avec un nombre de pas de calcul identique entre deux images consécutives.
+
 Il est disponible [ici](animations.ipynb)
 
 Version Google Colab [ici](https://colab.research.google.com/drive/11Fik_SILIgIapxXb5VRLcIl5on5pg-V_?usp=drive_link) 
