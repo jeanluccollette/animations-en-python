@@ -163,7 +163,7 @@ https://github.com/user-attachments/assets/a2713d3b-a897-4340-b362-abf813fce852
 La discrétisation en espace d'une ligne de transmission sans pertes s'effectue via la mise en cascade d'éléments avec le schéma ci-dessous. La ligne de longueur $D$ est modélisée par $N$ éléments représentant une longueur $\Delta x = \dfrac{D}{N}$.
 Dès lors, la simulation numérique fait appel à une équation dynamique avec $2N+1$ variables d'état, soit $N+1$ courants dans les inductances et $N$ tensions aux bornes des condensateurs. On se ramène ainsi à la résolution numérique d'une
 équation différentielle ordinaire, avec cependant une limite sur la stabilité du schéma numérique correspondant à une valeur maximale que doit prendre le rapport $\dfrac{V \Delta t}{\Delta x}$, $V$ étant la vitesse de propagation dans la ligne.
-Cette valeur maximale est de l'ordre de $1$, mais peut prendre des valeurs très différentes selon la méthode de résolution utilisée (par ddéfaut **rk4** dans l'exmeple présenté) et selon les conditions aux limites.
+Cette valeur maximale est de l'ordre de $1$, mais peut prendre des valeurs très différentes selon la méthode de résolution utilisée (par ddéfaut **rk4** dans l'exemple présenté) et selon les conditions aux limites.
 
 ![lignes.png](lignes.png)
 
