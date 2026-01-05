@@ -162,9 +162,13 @@ https://github.com/user-attachments/assets/154433e9-17ea-4a85-8e96-aad097435813
 
 La discrétisation en espace d'une ligne de transmission s'effectue via la mise en cascade d'éléments avec le schéma ci-dessous. La ligne de longueur $D$ est modélisée par $N$ éléments représentant une longueur $\Delta x = \dfrac{D}{N}$.
 Dès lors, la simulation numérique fait appel à une équation dynamique avec $2N+1$ variables d'état, soit $N+1$ courants dans les inductances et $N$ tensions aux bornes des condensateurs. On se ramène ainsi à la résulution numérique d'une
-équation différentielle ordinaire, avec cependant une limite sur la stabilité du schéma numérique correspondant à la valeur du rapport $\dfrac{V \Delta t}{\Delta x}$.
+équation différentielle ordinaire, avec cependant une limite sur la stabilité du schéma numérique correspondant à la valeur du rapport $\dfrac{V \Delta t}{\Delta x}$, $V$ étant la vitesse de propagation dans la ligne.
 
 ![lignes.png](lignes.png)
+
+Les conditions aux limites sont déterminées par l'impédance de sortie $R_e$ de la source de tension $e(t)$ connectée à l'entrée de la ligne et par l'impédance de charge $R_s$ connectée à la sortie de la ligne.
+Par défaut, ces impédances sont nulles et aboutissent ainsi à des conditions de réflexion particulières aux extrémites de la ligne. On peut cependant leur donner d'autres valeurs, en paticulier celles de
+l'impédance caratéristique $Z_c$ de la ligne pour obserser d'autres coomportements.
 
 Fichier ligne.py (archive [lignes.zip](lignes.zip)) :
 ```python
