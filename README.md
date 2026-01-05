@@ -167,7 +167,7 @@ ligne = lignes.Ligne()
 ligne.anim()
 ```
 
-https://github.com/user-attachments/assets/d3984ca9-2e8f-484d-b294-16e84f6c06b2
+[](lignes.mp4)
 
 ## Bonus avec le Notebook rassemblant toutes les animations
 
