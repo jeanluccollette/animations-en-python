@@ -169,7 +169,7 @@ Cette valeur maximale est de l'ordre de $1$, mais peut prendre des valeurs très
 
 Les conditions aux limites sont déterminées par l'impédance de sortie $R_e$ de la source de tension $e(t)$ connectée à l'entrée de la ligne et par l'impédance de charge $R_s$ connectée à la sortie de la ligne.
 Par défaut, ces impédances sont nulles et aboutissent ainsi à des conditions de réflexion particulières aux extrémites de la ligne. On peut cependant leur donner d'autres valeurs, en particulier celle de
-l'impédance caratéristique $Z_c$ de la ligne pour observer d'autres coomportements.
+l'impédance caratéristique $Z_c$ de la ligne pour observer d'autres comportements.
 
 Fichier ligne.py (archive [lignes.zip](lignes.zip)) :
 ```python
