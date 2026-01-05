@@ -160,6 +160,10 @@ https://github.com/user-attachments/assets/154433e9-17ea-4a85-8e96-aad097435813
 
 ## Bonus avec propagation d'onde sur une ligne
 
+La discrétisation en espace d'une ligne de transmission s'effectue via la mise en cascade d'éléments avec le schéma ci-dessous. La ligne de longueur $D$ est modélisée par $N$ éléments représentant une longueur $\Delta x = \dfrac{D}{N}$.
+Dès lors, la simulation numérique fait appel à une équation dynamique avec $2N+1$ variables d'état, soit $N+1$ courants dans les inductances et $N$ tensions aux bornes des condensateurs. On se ramène ainsi à la résulution numérique d'une
+équation différentielle ordinaire, avec cependant une limite sur la stabilité du schéma numérique correspondant à la valeur du rapport $\dfrac{V \Delta t}{\Delta x}$.
+
 ![lignes.png](lignes.png)
 
 Fichier ligne.py (archive [lignes.zip](lignes.zip)) :
