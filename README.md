@@ -156,7 +156,7 @@ I_3\Omega_3
 \end{matrix}\right)
 \end{equation}$$
 
-https://github.com/user-attachments/assets/154433e9-17ea-4a85-8e96-aad097435813
+https://github.com/user-attachments/assets/a2713d3b-a897-4340-b362-abf813fce852
 
 ## Bonus avec propagation d'onde sur une ligne
 
