@@ -177,6 +177,8 @@ ligne = lignes.Ligne()
 ligne.anim()
 ```
 
+Ci-dessous, la simulation a été lancée avec $R_e=R_s=0$.
+
 https://github.com/user-attachments/assets/be87d787-dae0-4cf9-a793-620ea49cbb7b
 
 ## Bonus avec le Notebook rassemblant toutes les animations
