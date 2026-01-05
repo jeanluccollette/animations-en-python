@@ -160,6 +160,8 @@ https://github.com/user-attachments/assets/154433e9-17ea-4a85-8e96-aad097435813
 
 ## Bonus avec propagation d'onde sur une ligne
 
+[](lignes.png)
+
 Fichier ligne.py (archive [lignes.zip](lignes.zip)) :
 ```python
 import lignes
