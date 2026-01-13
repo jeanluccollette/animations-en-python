@@ -158,6 +158,11 @@ I_3\Omega_3
 
 https://github.com/user-attachments/assets/a2713d3b-a897-4340-b362-abf813fce852
 
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/f0d31ba1-55b4-4901-92b8-55d61cecaa1b" />
+
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/5f4b978c-3ad4-42dc-9f80-bdd2c8d41b58" />
+
+
 ## Bonus avec propagation d'onde sur une ligne
 
 La discrétisation en espace d'une ligne de transmission sans pertes s'effectue via la mise en cascade d'éléments avec le schéma ci-dessous. La ligne de longueur $D$ est modélisée par $N$ éléments représentant une longueur $\Delta x = \dfrac{D}{N}$.
