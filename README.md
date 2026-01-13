@@ -168,11 +168,11 @@ toupie.var_moment_cine()
 ```
 
 Les toutes petites variations sur les composantes du moment cinétique donnent une indication sur la qualité de la résolution numérique.
-Une petite valeur initiale pour $\Omega_3$ amorce le mouvement de basculement observé ensuite.
 
 <img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/f0d31ba1-55b4-4901-92b8-55d61cecaa1b" />
 
 Les composantes du vecteur rotation dans le référentiel solidaire de l'objet sont aussi tracées.
+Une petite valeur initiale pour $\Omega_3$ amorce le mouvement de basculement observé ensuite.
 
 <img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/5f4b978c-3ad4-42dc-9f80-bdd2c8d41b58" />
 
