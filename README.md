@@ -158,10 +158,22 @@ I_3\Omega_3
 
 https://github.com/user-attachments/assets/a2713d3b-a897-4340-b362-abf813fce852
 
+Par ailleurs, avec les paramètres déjà utilisés pour l'animation, il est possible d'évaluer la précision associée à la résolution numérique en
+calculant le moment cinétique dans le référentiel inertiel, censé rester invariant durant le mouvement.
+
+```python
+import toupies
+toupie = toupies.Toupie()
+toupie.var_moment_cine()
+```
+
+Les toutes petites variations sur les composantes du moment cinétique donnent une indication sur la qualité de la résolution numérique.
+
 <img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/f0d31ba1-55b4-4901-92b8-55d61cecaa1b" />
 
-<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/5f4b978c-3ad4-42dc-9f80-bdd2c8d41b58" />
+Les composantes du vecteur rotation dans le référentiel solidaire de l'objet sont aussi tracées.
 
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/5f4b978c-3ad4-42dc-9f80-bdd2c8d41b58" />
 
 ## Bonus avec propagation d'onde sur une ligne
 
